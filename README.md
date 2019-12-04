@@ -165,13 +165,13 @@ Once the program is compiled, run with the command-line:
 
 You may edit and save the input file input.txt to change the parameters, or copy the input file from another folder 
 
+Results and graphs
+==================
+
 General results
 ---------------
 
 To see the main results of the program check the output.txt file for AC loss and computing time at the end of file. There are more files with detailed data results and debugging information. It is practical to use the gnuplot graphs below to see the detailed results.
-
-Detailed results and graphs
-===========================
 
 Geometry:
 ---------
