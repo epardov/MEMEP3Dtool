@@ -5,11 +5,16 @@ MEMEP3Dtool
 Three-dimensional (3D) electro-magnetic modeling tool for superconductors and normal conductors using the Minimum Electro-Magnetic Entropy Production (MEMEP) variational principle (https://doi.org/10.1016/j.jcp.2017.05.001).
 
 Authors of the code: M. Kapolka and E. Pardo
+
 Address: Institute of Electrical Engineering, Slovak Academy of the Sciences, Bratislava 
+
 Email address: milan.kapolka@savba.sk and enric.pardo@savba.sk
+
 Version of the code: 0.03
+
 Date: 4.12.2019
-WEbpage link to code: https://www.github.org/ 
+
+WEbpage link to code: https://github.com/epardov/MEMEP3Dtool
 
 The names and details about authors cannot be removed. Further development of the code is allowed. You may add the details about future co-authors. 
 
