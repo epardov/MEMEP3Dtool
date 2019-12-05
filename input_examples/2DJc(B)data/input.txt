@@ -33,9 +33,9 @@ fi[degree]: 0
 fi1[degree]: 90
 uni[-]: 1
 rel[-]: 3
-nB[-]: 0
-measured_points[-]: 1
-measured_fields[-]: 12
+nB[-]: 1
+measured_points[-]: 38
+measured_fields[-]: 8
 sym[-]: 1
 Ec[V/m]: 1e-4
 Jo[A/m2]:	2.72e10
