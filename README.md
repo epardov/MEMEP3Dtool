@@ -102,7 +102,7 @@ fi1[degree]: angle of the applied cross magnetic field from z axis to the x axis
 
 uni[-]: type of the mesh: 1-uniform (default)
 
-rel[-]: type of power-law E(J) relation: 1-isotropic, 2-Jc(B) of Kim analytical model, 3-Jc(B,theta) interpolated from measured data, 4-with force-free anisotropy (https://doi.org/10.1088/1361-6668/ab016a).
+rel[-]: type of power-law E(J) relation: 1-isotropic, 2-Jc(B) of Kim analytical model, 3-Jc(B,theta) interpolated from measured data in JcBload.txt file, 4-with force-free anisotropy (https://doi.org/10.1088/1361-6668/ab016a).
 
 nB[-]: 0 disable/1, enable power-law n(B) interpolated from measured data
 
