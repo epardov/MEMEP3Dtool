@@ -2989,13 +2989,7 @@ void class_cube::load_Jcbdata()
 	cout <<"i  B[T]  theta Jc[A/m2]  n" << endl;
 	for(i=0;i<measured_fields;i++){cout << i << endl;
 	for (n=0;n<measured_points;n++) {cout << data[i][n][0] << " " << data[i][n][1] << " " << data[i][n][2] << " " << data[i][n][3] << " " << data[i][n][4] << endl;}cout << endl;}}
-
-
-	f.open("data/JcB1.txt",ios::out);	f.clear();	f.close();
-
-	f.open("data/JcB1.txt",ios::out);
-	for(b=0;b<2;b+=0.05){f<< b <<"\t"<< bilinear_inter_JcB(b, 0) << "\t"<< bilinear_inter_nB(b,0) << endl;}
-	f.close();
+ 
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
