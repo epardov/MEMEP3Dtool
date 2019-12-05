@@ -84,7 +84,7 @@ uni = 2 semi-uniform mesh
 
 rel = 1 Jc constant (isotropic power law)
 rel = 2 Jc(B) (isotropic power law) Kim model
-rel = 3 Jc(B) (isotropic power law) load Jc(B) data
+rel = 3 Jc(B) (isotropic power law) load Jc(B) data from JcBload.txt
 rel = 4 Jc(B,theta) (anisotropic power law)	
 
 
