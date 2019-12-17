@@ -1,0 +1,160 @@
+x[m]:	10.0e-3
+xl[m]: 0
+y[m]: 10.0e-3
+z[m]: 10.0e-3
+x0[m]: 0.00e-3
+y0[m]: 0.00e-3
+z0[m]: 0.00e-3
+R1[m]: 70.0e-3
+R2[m]: 77.8e-3
+dR[m]: 0.001e-3
+FI[degrees]: 720.0
+FI1[degrees]: 0.0
+Z[m]: 4.00e-3
+sys: 0
+full_matrix: 0
+nsucx[-]: 15
+nncx[-]: 0
+ncy[-]:	15
+ncz[-]: 15
+n_tapes[-]: 1
+nc_tape[-]: 9
+nc_gap[-]: 0
+d_tape[m]: 340e-6
+d_gap[m]: 220e-6
+elc[-]: 0
+tol_elc[-]: 0.01
+Bamax[T]: 200.00e-3
+Bamax1[T]: 50.0e-3
+Bshape[-]: 0
+Btrape[-]: 0
+Ismax[A]: 0
+rcx_plane[m]: 6.00e-3
+rcy_plane[m]: 6.00e-3
+rcz_plane[m]: 1910.0e-6
+x_plane[m]: 12.00e-3
+y_plane[m]: 12.00e-3
+z_plane[m]: 0.001e-3	
+ncx_plane[-]:	15
+ncy_plane[-]:	15
+ncz_plane[-]:	1
+theta[degree]: 0
+fi[degree]: 0
+fi1[degree]: 90
+uni[-]: 1
+rel[-]: 1
+nB[-]: 0
+measured_points[-]: 38
+measured_fields[-]: 7
+sym[-]: 2
+Ec[V/m]: 1e-4
+Jo[A/m2]: 2.72e8
+Jol[A/m2]: 0
+Jvar[A/m2]: 0
+rhoR[ohm*m]: 39.44e-11
+dl[m]: 90e-6
+Jcpa[A/m2]:	9e10
+Jcpe[A/m2]:	3e10
+Bo[T]: 20e-3
+N[-]: 30
+Nl[-]: 1
+m[-]: 0.5
+f[Hz]: 50
+f1[Hz]: 1
+ns[-]: 40
+step[-]: 50
+hr[-]: 5e-6
+tolJ[-]: 1e-4
+shape[-]: 0
+num_threads[-]: 8
+ijk_polar: 0
+nscx[-]: 9
+nscy[-]: 9
+nscz[-]: 9
+shiftx1[-]: 3
+shiftx2[-]: 6
+shifty1[-]: 3
+shifty2[-]: 6
+shiftz1[-]: 3
+shiftz2[-]: 6
+multi_e[-]: 0
+nscex[-]: 5
+nscey[-]: 5
+nscez[-]: 1
+ne[-]: 1
+
+/* 	
+
+3.199e10  4mm 1um 				3.199e7 4mm 1mm			9.69e7 4mm 0.33mm			
+1.599e10  8mm
+1.066e10	12mm 1um				3.198e10	12mm 0.33um
+
+0.7106e10	12mm 1.5mm
+
+Input options:	
+Without linear material. Uniform mesh.
+ss=0 xl=0 nncx=0 uni=0||1									
+
+With linear material. Uniform mesh.
+ss=0 xl=0 nncx!=0 uni=0||1									
+
+With linear material. Semi mesh: SC-Uniform mesh, LC-Uniform mesh.
+ss=0 xl!=0 uni=2														
+
+With linear material. Non-Uniform mesh ln-type.
+ss=0 xl!=0 nncx!=0 uni=0			
+
+sys = 0 cartezian coordinate system
+sys = 1 polar coordinate system														odd input ncy must be with FI1!=0
+
+full_matrix = 0 symmetric 1 line of the interaction matrix cmAx...
+full_matrix = 1 full interaction matrix mAx...																		maximum total number of cells is 29791 (use 10GB RAM) 
+full_matrix = 2 full matrix mAx.. fill by zmAx ...
+full_matrix = 3 symmetric interaction matrix for z-symmetry tapes zmA ...
+
+elc = 0 vector potential approximation 
+elc = 1 vector potential alongated cells
+tol_elc = 2D 0.001 tolerance of numerical interaction matrix
+tol_elc = 3D 0.001-0.01 tolerance of numerical interaction matrix (according computing time)
+			
+uni = 0 non-uniform mesh
+uni = 1 uniform mesh
+uni = 2 semi-uniform mesh		
+
+rel = 1 Jc constant (isotropic power law)
+rel = 2 Jc(B) (isotropic power law) Kim model
+rel = 3 Jc(B) (isotropic power law) load Jc(B) data
+rel = 4 Jc(B,theta) (anisotropic power law)	
+rel = 5 CSM with multivalue E(J) relation
+
+sym = 0 without symmetry and without sectors
+sym = 1 sectors without symetry (odd/even)
+sym = 2 sectors with symetry (odd input!! and only rel=1!!)
+
+Bshape = 0 constant,sinusoidal
+Bshape = 1 constant ramp with change of direction Ba
+Bshape = 2 constant ramp 
+
+       theta  fi
+Ba(z) 		0    0
+Ba(x)     0   90
+Ba(y)    90   90
+
+shape = 0 square/rectangular
+shape = 1 disk/ball	(in catezian coordinate system)
+shape = 2 cylinder (in catezian coordinate system)
+shape = 3 filamnet tape
+shape = 4 stack
+shape = 5 infinite boundaries along the Y axis (with polar coordinate system - ring, sym = 0 !!!!!!)
+shape = 6 disk ( with polar coordinate system)
+shape = 7 3D filament
+
+optimum input=12(2D),9(3D)
+shift1=4 (2D),3 (3D)
+shift2=8 (2D),6 (3D)
+
+optimum input (2D), (3D) z=0.1mm
+nsce[-]: 5(2D)  		5(3D)
+ne[-]: 1(2D)				4(3D)
+
+*/
