@@ -1,0 +1,4 @@
+#!/bin/bash
+
+g++ -std=c++0x -c main.cpp -fopenmp
+g++ -L/usr/local/lib -o main main.o -lm -fopenmp
